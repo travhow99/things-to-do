@@ -1,0 +1,226 @@
+// Create Obj w/ task, subtext, & img src
+
+let tasks = {
+   "0":{
+      "task":"Apply for jobs"
+   },
+   "1":{
+      "task":"Brew"
+   },
+   "2":{
+      "task":"Call an old friend"
+   },
+   "3":{
+      "task":"Call your best friend"
+   },
+   "4":{
+      "task":"Call your brother"
+   },
+   "5":{
+      "task":"Call your dad"
+   },
+   "6":{
+      "task":"Call your grandma"
+   },
+   "7":{
+      "task":"Call your mom"
+   },
+   "8":{
+      "task":"Call your sister"
+   },
+   "9":{
+      "task":"Checkout a new part of town"
+   },
+   "10":{
+      "task":"Clean up"
+   },
+   "11":{
+      "task":"Clean your car"
+   },
+   "12":{
+      "task":"Climb"
+   },
+   "13":{
+      "task":"Code for an hour or two"
+   },
+   "14":{
+      "task":"Create a to-do list"
+   },
+   "15":{
+      "task":"Do something nice for someone"
+   },
+   "16":{
+      "task":"Do something nice for your SO"
+   },
+   "17":{
+      "task":"Do the dishes"
+   },
+   "18":{
+      "task":"Floss"
+   },
+   "19":{
+      "task":"Get a carwash"
+   },
+   "20":{
+      "task":"Go for a bike ride"
+   },
+   "21":{
+      "task":"Go for a run"
+   },
+   "22":{
+      "task":"Go for a run"
+   },
+   "23":{
+      "task":"Go for coffee"
+   },
+   "24":{
+      "task":"Go grocery shopping"
+   },
+   "25":{
+      "task":"Go on a walk to pick up trash"
+   },
+   "26":{
+      "task":"Go snowshoeing"
+   },
+   "27":{
+      "task":"Go to gym"
+   },
+   "28":{
+      "task":"Go to library"
+   },
+   "29":{
+      "task":"Go to the museum"
+   },
+   "30":{
+      "task":"Go to yoga"
+   },
+   "31":{
+      "task":"Hit the Poudre"
+   },
+   "32":{
+      "task":"Knock something off your to-do list"
+   },
+   "33":{
+      "task":"Learn guitar (45 min)"
+   },
+   "34":{
+      "task":"Learn to dj (45 min)"
+   },
+   "35":{
+      "task":"Listen to a new album"
+   },
+   "36":{
+      "task":"Listen to an old favorite album"
+   },
+   "37":{
+      "task":"Listen to your favorite album"
+   },
+   "38":{
+      "task":"Make a new playlist"
+   },
+   "39":{
+      "task":"Meal plan"
+   },
+   "40":{
+      "task":"Meal prep"
+   },
+   "41":{
+      "task":"Meditate"
+   },
+   "42":{
+      "task":"Plan a trip"
+   },
+   "43":{
+      "task":"Play disc golf"
+   },
+   "44":{
+      "task":"Play horn"
+   },
+   "45":{
+      "task":"Play some pickup soccer"
+   },
+   "46":{
+      "task":"Play with dog outside"
+   },
+   "47":{
+      "task":"Read"
+   },
+   "48":{
+      "task":"Read in park"
+   },
+   "49":{
+      "task":"Read the news"
+   },
+   "50":{
+      "task":"Read up on some new technologies"
+   },
+   "51":{
+      "task":"Revisit an old app"
+   },
+   "52":{
+      "task":"Schedule a dentist appointment"
+   },
+   "53":{
+      "task":"Schedule a doctors appointment"
+   },
+   "54":{
+      "task":"Setup a savings account"
+   },
+   "55":{
+      "task":"Start building a new app"
+   },
+   "56":{
+      "task":"Take dog to dog park"
+   },
+   "57":{
+      "task":"Tune-up your bike"
+   },
+   "58":{
+      "task":"Vacuum"
+   },
+   "59":{
+      "task":"Walk a new trail"
+   },
+   "60":{
+      "task":"Walk dog"
+   },
+   "61":{
+      "task":"Watch a climbing video"
+   },
+   "62":{
+      "task":"Watch a documentary"
+   },
+   "63":{
+      "task":"Watch a new movie"
+   },
+   "64":{
+      "task":"Watch a soccer match"
+   },
+   "65":{
+      "task":"Watch soccer highlights"
+   },
+   "66":{
+      "task":"Work on a new skill"
+   },
+   "67":{
+      "task":"Work on client website"
+   },
+   "68":{
+      "task":"Work on design skills"
+   },
+   "69":{
+      "task":"Work on your budget"
+   },
+   "70":{
+      "task":"Work on your resume"
+   },
+   "71":{
+      "task":"Work on your SQL skills"
+   },
+   "72":{
+      "task":"Work on your website"
+   },
+   "73":{
+      "task":"Write a blog post"
+   }
+};
