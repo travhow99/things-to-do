@@ -23,7 +23,7 @@ class App extends Component {
 
   random() {
     let taskLength = Object.keys(tasks).length;
-    let num = Math.floor(Math.random() * taskLength) + 1; // returns a random integer from 1 to lenght of tasks
+    let num = Math.floor(Math.random() * taskLength); // returns a random integer from 1 to lenght of tasks
     return num;
   }
 
@@ -65,7 +65,7 @@ class App extends Component {
           <h1>Go ahead, try something new!</h1>
           <img style={{maxWidth: 720}} src={this.state.imgUrl}/>
           <p>You should...</p>
-          <h3 style={{color: randomColor()}}>{this.state.task}</h3>
+          <h3 style={{color: randomColor({luminosity: 'light'})}}>{this.state.task}</h3>
           <p>{this.state.tagLine}</p>
           <button onClick={this.findNew}>Nah, that sucks!</button>
         </div>
