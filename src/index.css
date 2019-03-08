@@ -26,6 +26,7 @@ button {
   border: 2px solid white;
   border-radius: 4px;
   padding: 8px 12px;
+  margin-bottom: 8px;
   font-size: 24px;
   color: white;
   cursor: pointer;
@@ -34,4 +35,25 @@ button {
 button:hover {
   background: #3ccaca;
   border: 2px solid #0d6767;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 720px;
+  margin: auto;
+}
+
+.container img {
+  width: 100%;
+  max-width: 720px;
+  display: 'block';
+}
+
+.text-block {
+  background: #27426d;
+  padding: 12px 24px;
 }

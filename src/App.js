@@ -61,13 +61,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <div className="container">
           <h1>Go ahead, try something new!</h1>
-          <img style={{maxWidth: 720}} src={this.state.imgUrl}/>
-          <p>You should...</p>
-          <h3 style={{color: randomColor({luminosity: 'light'})}}>{this.state.task}</h3>
-          <p>{this.state.tagLine}</p>
-          <button onClick={this.findNew}>Nah, that sucks!</button>
+          <img style={{maxWidth: 720, display: 'block'}} src={this.state.imgUrl}/>
+          <div className="text-block">
+            <p>You should...</p>
+            <h3 style={{color: randomColor({luminosity: 'light'})}}>{this.state.task}</h3>
+            <p>{this.state.tagLine}</p>
+            <button onClick={this.findNew}>Nah, that sucks!</button>
+          </div>
         </div>
       </div>
     );
