@@ -3,9 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import tasks from './task-data';
 import randomColor from 'randomcolor';
+import styled, { keyframes } from 'styled-components';
+import { bounce } from 'react-animations';
 
+const bounceAnimation = keyframes`${bounce}`;
 
-
+const BouncyImg = styled.img`
+  animation: 1s ${bounceAnimation};
+`;
 
 class App extends Component {
 
@@ -63,7 +68,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <h1>Go ahead, try something new!</h1>
-          <img style={{maxWidth: 720, display: 'block'}} src={this.state.imgUrl}/>
+          <BouncyImg style={{maxWidth: 720, display: 'block'}} src={this.state.imgUrl}/>
           <div className="text-block">
             <p>You should...</p>
             <h3 style={{color: randomColor({luminosity: 'light'})}}>{this.state.task}</h3>

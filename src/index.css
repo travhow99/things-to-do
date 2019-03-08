@@ -51,6 +51,7 @@ button:focus {
   width: 100%;
   max-width: 720px;
   display: 'block';
+  transition: 1s ease-in-out;
 }
 
 .text-block {
