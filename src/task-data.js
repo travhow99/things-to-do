@@ -285,7 +285,7 @@ const tasks = {
     tagLine: 'Any burning ideas?',
   },
   56: {
-    task: "Take dog to dog park",
+    task: "Take your dog to dog park",
     imgUrl: 'https://travishowell.net/wp-content/uploads/2019/03/dog-3066476_1280.jpg',
     tagLine: 'You know it\'s what they really want!',
   },
@@ -305,9 +305,9 @@ const tasks = {
     tagLine: 'Experience a new view.',
   },
   60: {
-    task: "Walk dog",
+    task: "Walk the dog dog",
     imgUrl: 'https://travishowell.net/wp-content/uploads/2019/03/man-3687274_1280.jpg',
-    tagLine: 'It\'s and obligation! Every. Single. Day.',
+    tagLine: 'It\'s an obligation! Every. Single. Day.',
   },
   61: {
     task: "Watch a climbing video",
